@@ -10,4 +10,4 @@ This project is the result of an extended evaluation of different CDN providers.
 
 ## Contributing
 
-Anyone and everyone is welcome to,however, if you decide to get involved, please merge (squash) all your changes into a single commit before you open a pull request.
+Anyone and everyone is welcome to contribute, however, if you decide to get involved, please merge (squash) all your changes into a single commit before you open a pull request.
