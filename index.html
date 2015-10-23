@@ -26,12 +26,12 @@
             <div class="col-md-6">
                 <section class="widget">
                     <header>
-                        <h4>Last update &nbsp;<span class="label label-default fw-normal">24th April 2015</span></h4>
+                        <h4>Last update &nbsp;<span class="label label-default fw-normal">23th October 2015</span></h4>
                     </header>
                     <div class="widget-body">
-                        <h5><i class="fa fa-circle-o"></i> What is this comparison about?</h5>
-                        <p>Comparing CDNs is a time consuming task and challenging. This collection of information supports you to better find the best CDN for your requirements.</p>
-                        <h5><i class="fa fa-circle-o"></i> Your favourit CDN is not listed here?</h5>
+                        <h5><i class="fa fa-circle-o"></i> What is this CDN comparison about?</h5>
+                        <p>Comparing CDN providers is a time consuming task and challenging. This collection of information supports you to better find the best CDN for your content delivery needs. CDNs also provide other types of solutions such as software distribution, game & app delivery, video streaming, and ad serving.</p>
+                        <h5><i class="fa fa-circle-o"></i> Your favorite CDN is not listed here?</h5>
                         <p>Feel free to contribute. This comparison will be activly maintained on <a href="http://github.com/betahex/cdncomparison"><i class="fa fa-github"></i> GitHub</a>.</p>
                         <h5><i class="fa fa-circle-o"></i> You want to provide feedback or update comparison information?</h5>
                         <p>Please open an issue report on the <a href="http://github.com/betahex/cdncomparison">official <i class="fa fa-github"></i> GitHub repository</a>.</p>
@@ -55,6 +55,7 @@
                             <li><strong>Less load on the origin</strong> - more resources for other tasks.</li>
                             <li><strong>Increased reliability</strong> - handle traffic spickes and reduce system overload.</li>
                             <li><strong>Reduced cost</strong> - bandwidth is expensive where CDNs offer better prices.</li>
+                            <li><strong>Scalability</strong> - Scale up or down within a short amount of time.</li>
                         </ul>
                     </div>
                 </section>
@@ -65,9 +66,9 @@
             <div class="col-md-12">
                 <section class="widget">
                     <header>
-                        <h4>
-                            Overall <span class="fw-semi-bold">Comparison</span>
-                        </h4>
+                        <h2>
+                            Overall <span class="fw-semi-bold"> CDN Comparison</span>
+                        </h2>
                         <div class="widget-controls">
                             <ul class="list-inline">
                                 <li><i class="fa fa-check-circle-o fully"></i> fully</li>
@@ -181,12 +182,12 @@
                                     <th class="th-comp">Points of Presence</th>
                                     <td><small><span class="fw-semi-bold">37</span></small></td>
                                     <td><small>19</small></td>
-                                    <td><small><span class="fw-semi-bold">21</span></small></td>
-                                    <td><small>17</small></td>
+                                    <td><small><span class="fw-semi-bold">22</span></small></td>
+                                    <td><small><span class="fw-semi-bold">22</span></small></td>
                                     <td><small><span class="fw-semi-bold">32</span></small></td>
                                     <td>
                                         <small>
-                                            <p>16</p>
+                                            <p>12</p>
                                             <span class="text-semi-muted">not all locations are included by default</span>
                                         </small>
                                     </td>
@@ -196,7 +197,7 @@
                                             <span class="text-semi-muted">based on VPS (Linode, DigitalOcean, etc)</span>
                                         </small>
                                     </td>
-                                    <td><small><span class="fw-semi-bold">27</span></small></td>
+                                    <td><small><span class="fw-semi-bold">28</span></small></td>
                                     <td><small><span class="fw-semi-bold">35</span></small></td>
                                 </tr>
                                 <tr class="tr-comp-section">
@@ -311,12 +312,24 @@
                                     <th class="th-comp">SPDY</th>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
-                                    <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-check-circle-o partially" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="HTTP/2 support."></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-check-circle-o partially" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="HTTP/2 support."></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
+                                </tr>
+                                <tr>
+                                    <th class="th-comp">HTTP/2</th>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                 </tr>
                                 <tr>
@@ -371,25 +384,25 @@
                                     <th class="th-comp">Video on Demand (VOD) over RTMP</th>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
-                                    <td><i class="fa fa-check-circle-o fully"></i></td>
-                                    <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
-                                    <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
                                 </tr>
                                 <tr>
                                     <th class="th-comp">RTMP Live Streaming</th>
-                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
-                                    <td><i class="fa fa-check-circle-o partially" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Limited transcoding."></i></td>
-                                    <td><i class="fa fa-check-circle-o fully"></i></td>
-                                    <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
                                 </tr>
                                 <tr class="tr-comp-section">
                                     <th><em>Security</em></th>
@@ -482,7 +495,7 @@
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
-                                    <td><i class="fa fa-times-circle nope"></i></td>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
