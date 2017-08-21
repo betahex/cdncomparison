@@ -108,7 +108,7 @@ hr {
     padding: 0;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    border: 0
+    border: 0;
 }
 .sr-only-focusable:active, .sr-only-focusable:focus {
     position: static;
@@ -144,10 +144,13 @@ h4 small, h4 .small, .h4 small, .h4 .small, h5 small, h5 .small, .h5 small, .h5 
     font-size: 75%
 }
 h1, .h1 {
-    font-size: 36px
+    font-size: 36px;
+    margin: 40px 0;
+    font-weight: 500
 }
 h2, .h2 {
-    font-size: 30px
+    font-size: 20px;
+    font-weight: 600
 }
 h3, .h3 {
     font-size: 24px
@@ -490,7 +493,8 @@ pre code {
     margin-bottom: 30px;
     padding: 15px 20px;
     background: #fff;
-    border-radius: 3px
+    border-radius: 3px;
+    min-height: 280px
 }
 .widget>header {
     margin: -15px -20px;
